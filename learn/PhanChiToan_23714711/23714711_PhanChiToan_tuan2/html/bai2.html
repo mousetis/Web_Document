@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai2</title>
+    <meta name="23714711" content="Phan Chi Toan">
+
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .outer{
+            width: 60%;
+            border: 1px solid black;
+            position: relative;
+            padding: 20px;
+            box-shadow: 3px 3px 10px;
+        }
+
+        /* phần header ở trên */
+        header{
+            width: 100%;
+            background-image: url(../img/bai2/background.png);
+        }
+
+        .hlevel1{
+            display: flex;
+            font-size: 17px;
+        }
+
+        .hlevel1 .hImg{
+            width: 10%;
+            margin: 5px;
+        }
+
+        .hlevel1 .hImg img{
+            width: 130px;
+        }
+
+        .hTittle>h1{
+            letter-spacing: 2px;
+        }
+
+        header>div{
+            display: inline-block;
+        }
+
+        .hTittle{
+            position: relative;
+            padding-left: 40px;
+            padding-top: 6%;
+            color: #fff;
+            margin: 0px;
+        }
+
+        .listlevel1{
+            
+            list-style-type: none;
+            background-color: #b0aeab;
+        }
+
+        .listlevel1 li{
+            display: inline-block;
+            line-height: 20px;
+            font-size: 20px;
+            padding: 0.5% 2.5%;
+        }
+
+        .listlevel1 li a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* phần content bên trái */
+        .maincont{
+            display: flex;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        main{
+            /* background-color: burlywood; */
+            width: 73%;
+            margin: 0;
+            box-shadow: 2px 0px 3px #C0C0C0;
+        }
+
+        .contentlv1{
+            display: flex;
+        }
+
+        .contimg{
+            position: relative;
+            width: 70%;
+            margin-left: 20px;
+            font-size: 20px;
+            border: 1px solid #C0C0C0;
+            box-shadow: 3px 3px 5px #C0C0C0;
+            padding: 5px;
+            margin-bottom: 25px;
+        }
+
+        .contimg img{
+            width: 100%;
+           
+        }
+
+        .conttext{
+            padding: 20px;
+            width: 70%;
+        }
+
+        .conttext h2{
+            font-size: 30px;
+        }
+
+        .conttext h3{
+            color: #deb4be;
+            font-size: 25px;
+        }
+
+        .conttext p{
+            margin-top: 15px;
+            font-size: 20px;
+            text-align: justify;
+        }
+
+        /* phần bên phải */
+        nav{
+            width: 25%;
+            margin-right: 0px;
+            font-size: 20px;
+        }
+
+        nav .popular{
+            color: #e6aaba;
+        }
+
+        nav .popular h2{
+            padding-left: 10px;
+            padding-top: 20px;
+        }
+
+        nav .popular ul>li{
+            list-style-type: none;
+            padding: 15px 0px 10px 0px;
+            margin-left: 20px;
+            font-size: 20px;
+            border-bottom: 1px solid #e6aaba;
+        }
+
+        nav .contact h2{
+            padding-left: 10px;
+            padding-top: 30px;
+            margin-top: 30px;
+            color: #e6aaba;
+        }
+
+        nav .contact ul{
+            list-style-type: none;
+            margin-top: 20px;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+        
+        /* phần chân trang */
+        footer{
+            margin-top: 20px;
+            background-color: #b2aeab;
+            height: 40px;
+            padding-top: 20px;
+            padding-left: 20px;
+            font-size: 16px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="outer">
+        <header>
+            <div class="hlevel1">   
+                <div class="hImg">
+                    <img src="../img/bai2/logo.png" alt="">
+                </div>
+                <div class="hTittle">
+                    <h1>YOKO'S KITCHEN</h1>
+                    <h3>JAPANESE COOKING CLASSES</h3>
+                </div>
+            </div>
+            
+            <ul class="listlevel1">
+                <li><a style="color: black;" href="">home</a></li>
+                <li><a href="">classes</a></li>
+                <li><a href="">catering</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </header>
+    
+        <div class="maincont">
+            <main>
+                <div class="contentlv1">
+                    <div class="contimg">
+                        <img src="../img/bai2/bok-choi.jpg.crdownload" alt="Bok Choi">
+                        <p>Bok Choi</p>
+                    </div>
+                    <div class="conttext">
+                        <h2>Japanese Vegetarian</h2>
+                        <h3>Five week course in London</h3>
+                        <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.</p>
+                    </div>
+                </div>
+                <div class="contentlv1">
+                    <div class="contimg">
+                        <img src="../img/bai2/teriyaki.jpg" alt="">
+                        <p>Teriyaki Sauce</p>
+                    </div>
+                    <div class="conttext">
+                        <h2>Sauces Masterclass</h2>
+                        <h3>One day workshop</h3>
+                        <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.</p>
+                    </div>
+                </div>
+            </main>
+    
+            <nav>
+                <div class="popular">
+                    <h2>Popular Recipies</h2>
+                    <ul >
+                        <li>Yakitori (grilled chicken)</li>
+                        <li>Tsukune (minced chicken patties)</li>
+                        <li>Okonomiyaki (savory pancakes)</li>
+                        <li>Mizutaki (chicken stew)</li>
+                    </ul>
+                </div>
+                
+                <div class="contact">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li>Yoko's Kitchen</li>
+                        <li> <sub>27</sub> Redchurch Street</li>
+                        <li>Shoreditch</li>
+                        <li>London E2 <sub>7</sub> DP</li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    
+        <footer>
+            <p>@ 2011 Yoko's Kitchen</p>
+        </footer>
+    </div>
+</body>
+</html>

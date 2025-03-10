@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Template</title>
+    <meta name="23714711" content="Phan Chí Toàn">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+</head>
+<style>
+    .hover_zoom{
+        transition: transform 0.3s ease;
+    }
+
+    .hover_zoom:hover{
+        transform: scale(1.15);
+    }
+</style>
+<body>
+    <div class="container-fluid w-100 text-white p-0" style="background-color: #09394d; height: 100vw;">
+        <div class="navbar navbar-expand-sm bg-dark ">
+            <ul class="navbar-nav">
+                <li class="nav-item text-uppercase fw-bold lh-1 " style="margin-right: 100px; padding: 12px 5px;">Restaurant Template</li>
+                <li class="nav-item p-2 lh-1">
+                    <select class="text-uppercase bg-dark text-secondary border border-dark" name="Block1" id="">
+                        <option value="Block Demos 1">Block Demos 1</option>
+                        <option value="Demos 1">Demos 1</option>
+                        <option value="Demos 2">Demos 2</option>
+                    </select>
+                </li>
+                <li class="nav-item p-2 lh-1">
+                    <select class="text-uppercase bg-dark text-white border border-dark" name="Block2" id="">
+                        <option value="Block Demos 2">Block Demos 2</option>
+                        <option value="Demos 1">Demos 1</option>
+                        <option value="Demos 2">Demos 2</option>
+                    </select>
+                </li>
+                <li class="nav-item p-2 lh-1">
+                    <select class="text-uppercase bg-dark text-white border border-dark" name="Template1" id="">
+                        <option value="Site Templates 1">Site Templates 1</option>
+                        <option value="Templates 1">Templates 1</option>
+                        <option value="Templates 2">Templates 2</option>
+                    </select>
+                </li>
+                <li class="nav-item p-2 lh-1">
+                    <select class="text-uppercase bg-dark text-white border border-dark" name="Template2" id="">
+                        <option value="Site Templates 2">Site Templates 2</option>
+                        <option value="Templates 1">Templates 1</option>
+                        <option value="Templates 2">Templates 2</option>
+                    </select>
+                </li>
+                <li class="nav-item p-2 lh-1">
+                    <input class="text-uppercase rounded text-white" style="padding: 5px 10px; background-color: #189bcd; border: none;"  type="button" value="Download Now!">
+                </li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <div>
+                <table>
+                    <div class="row pb-5 pt-2">
+                        <div class="col-12 ">
+                            <h1 class="fw-bold d-flex justify-content-center">Restaurant</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-7 ">
+                            <img style="width: 75%; margin-left: 15%;" src="../../img/bai1/pizzas.jpg" alt="">
+                        </div>
+                        <div class="col-5" >
+                            <div class="row d-flex justify-content-center" >
+                                <input class="text-white m-2 rounded hover_zoom" style="width: 25%; height: 50px; background-color: #ff3366; border: none;" type="button" value="New Menu">
+                            </div>
+                            <div class="row d-flex justify-content-center mb-5 hover_zoom">
+                                <input class="text-white m-2 rounded" style="width: 22%; height: 50px; background-color: #09394d; border: 1px solid white;" type="button" value="Terrace">
+                            </div>
+                            <div class="row">
+                                <p>The restaurant area allowed to accommodate a banquet hall, and a children hall, where children and their parents can fully enjoy the most intersting animation programs.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+    <meta name="23714711" content="Phan Chí Toàn">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-warning" id="exampleModalLabel">Order</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                    <div class="">
+                        <label for="telephone" class="form-label text-dark">Telephone</label>
+                        <input class="form-control border border-warning rounded-pill" type="tel" id="telephone" name="telephone" required>
+                    </div>
+                    <div class="">
+                        <label class="form-label text-dark" for="email">Email</label>
+                        <input class="form-control border border-warning rounded-pill" type="email" id="email" name="email" required>
+                    </div>
+                    <div class="pt-2">
+                        <label class="form-label text-dark">
+                            <input type="checkbox" name="check-code"> Check me out
+                        </label>
+                    </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <input class="bg-warning text-dark border-0 rounded" type="button" value="Order">
+                <input class="bg-warning text-dark border-0 rounded" type="button" data-bs-dismiss="modal" value="Done">
+              </div>
+            </div>
+          </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+}
+.list_ul {
+  background-image: url(../../img/bai4/back.jpg);
+  width: 190px;
+  height: 700px;
+  padding-bottom: 20px;
+}
+.top img {
+  text-align: right;
+  padding-right: 600px;
+}
+.list_ul li {
+  list-style: none;
+  text-align: left;
+  margin-left: 0px;
+  font-size: 15px;
+}
+hr {
+  color: rgb(255, 191, 0);
+  height: 2px;
+  background-color: rgb(255, 191, 0);
+  line-height: 0;
+  width: 60%;
+  text-align: left;
+  margin-left: 0;
+}
+a {
+  color: purple;
+  text-decoration: none;
+}
+.cham {
+  color: rgb(193, 144, 0);
+}
+.last {
+  color: rgb(255, 191, 0);
+  position: relative;
+  left: 270px;
+  bottom: 700px;
+}
+#hr {
+  color: rgb(255, 191, 0);
+  height: 2px;
+  background-color: rgb(255, 191, 0);
+  line-height: 0;
+  width: 43%;
+  text-align: left;
+  margin-left: 0;
+}
+.p1 {
+    background-color: antiquewhite;
+    color: brown;
+    position: relative;
+    width: 180px; 
+    top: -640px; 
+    left: 380px; 
+    padding: 10px; 
+    font-size: 12px; 
+    border: 1px solid brown; 
+  }
+  .p2 {
+    background-color: antiquewhite;
+    color: brown;
+    position: relative;
+    width: 150px; 
+    top: -460px; 
+    left: -150px; 
+    padding: 10px;
+    font-size: 12px; 
+    border: 1px solid brown; 
+  }
+  .p3 {
+    background-color: antiquewhite;
+    color: brown;
+    position: relative;
+    width: 180px; 
+    top: -430px; 
+    left: 350px; 
+    padding: 10px; 
+    font-size: 12px; 
+    border: 1px solid brown; 
+  }

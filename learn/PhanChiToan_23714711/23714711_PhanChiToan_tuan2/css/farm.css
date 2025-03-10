@@ -1,0 +1,96 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/bai3/background.jpg);
+}
+
+.container{
+    padding: 10px;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    margin: 10px 0px;
+    height: 130px;
+}
+
+.link{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 850px;
+    z-index: 1;
+}
+
+.link .list_link{
+    background-color: #fff;
+    width: 90%;
+    height: 35%;
+    margin: 10px;
+    box-shadow: 10px 10px 10px #909080;
+}
+
+.link li{
+    color: #c4a7c5;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.link li a{
+    text-decoration: none;
+}
+
+.content{
+    float: left;
+    width: 80%;
+    height: 850px;
+    color:#fff;
+    border-left: 2px solid #009b01;
+}
+
+.content h1{
+    width: 75%;
+    background-color: #009b01;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 40px;
+    font-size: 35px;
+    padding-left: 7%;
+    letter-spacing: 10px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.content p{
+    padding: 10px;
+    font-size: 19px;
+    
+}
+
+.content h3{
+    background-color: #009b01;
+    width: 42%;
+    margin: 10px;
+    padding-left: 10px;
+    line-height: 25px;
+}
+
+.content ul{
+    padding-left: 50px;
+    margin: 15px 0px;
+}
+
+.address{
+    clear: both;
+    text-align: center;
+    line-height: 40px;
+    color:#fff;
+    border-top: 5px double #009b01;
+    font-size: 17px;
+}

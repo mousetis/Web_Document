@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai2a</title>
+    <meta name="23714711" content="Phan Chí Toàn">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card p-4 shadow-sm ">
+            <table class="table ">
+                <tbody >
+                    <tr>
+                        <td colspan="2"><h4>Checkout</h4></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="fw-bold">Product 1 </span><br>
+                            <small class="text-muted">Lorem ipsum dolor sit amet</small>
+                        </td>
+                        <td class="text-end">$200</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="fw-bold">Product 2 </span><br>
+                            <small class="text-muted">Lorem ipsum dolor sit amet</small>
+                        </td>
+                        <td class="text-end">$120</td>
+                    </tr>
+                    <tr class="fw-bold ">
+                        <td><h5>Total</h5><br></td>
+                        <td class="text-end">$320</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4 class="mt-4">Credit Card Details <hr></h4>         
+            <form>
+                <div class="row mt-2">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Card Holder</label>
+                        <input type="text" class="form-control" placeholder="Card Holder">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Expiration Date</label>
+                        <div class="d-flex gap-2">
+                            <input type="text" class="form-control " placeholder="MM">
+                            <span class="align-self-center">/</span>
+                            <input type="text" class="form-control " placeholder="YY">
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-md-7 mb-3">
+                        <label class="form-label">Card Number</label>
+                        <input type="text" class="form-control" placeholder="Card Number">
+                    </div>
+                    <div class="col-md-5 mb-3">
+                        <label class="form-label">CVC</label>
+                        <input type="text" class="form-control" placeholder="CVC">
+                    </div>
+                </div>
+            
+                <button type="submit" class="btn btn-primary w-100 mt-4">Proceed</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

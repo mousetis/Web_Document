@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai1</title>
+    <meta name="23714711" content="PhanChiToan">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+        
+        .outer {
+            width: 70%;
+            border: 1px solid black;
+            position: relative;
+        }
+        
+        /* phần header bên trên */
+        h1.h1tittle {
+            color: #924257;
+            text-align: center;
+            text-shadow: 15px 17px 15px #924257;
+            line-height: 60px;
+            font-style: italic;
+        }
+        
+        ul.level1 {
+            width: 100%;
+            line-height: 40px;
+            list-style-type: none;
+            border-top: 1 solid black;
+            border-bottom: 1 solid black;
+            background-color: #ea9597;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        
+        ul.level1 li {
+            display: inline-block;
+            width: 150px;
+            line-height: 30px;
+            border-left: 1px solid black;
+            text-align: center;
+        }
+        
+        a{
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        img.home {
+            width: 20px;
+        }
+        
+        ul.level1>li.ftext{
+            width: 250px;
+        }
+
+        /* Nội dung phần giữa main  */
+        .main{
+            display: flex;
+            margin-top: 10px;
+        }
+
+        /* phần silde bên trái */
+        .slider{
+            position: relative;
+            width: 16%;
+            display: inline-block;
+            margin: 0px;
+        }
+
+        .slider>ul{
+            list-style-type: none;
+        }
+
+        .slider>ul>li>p{
+            line-height: 30px;
+            margin-bottom: 5px;
+            background-color: #e29898;
+            border-radius: 20px;
+            width: 100%;
+            padding-left: 10px;
+            color: #fff;
+        }
+
+        .slider>img.company{
+            margin-top: 10px;
+            width: 100%;
+            border-radius: 50%;
+            box-shadow: 15px 15px 10px #fdc2cd;
+        }
+
+        /* phần content ở giữa */
+        .content{
+            position: relative;
+            width: 60%;
+            display: inline-block;
+        }
+
+        h1.h1content {
+            color: #b84b4f;
+            background-color: #ea9595;
+            text-align: left;
+            letter-spacing: 10px;
+            width: 50%;
+            padding-left: 20px;
+        }
+
+        ul.level2{
+            padding-left: 50px;
+        }
+        
+        span {
+            color: red;
+            font-weight: bold;
+        }
+        
+        a.back {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .content>table{
+            width: 100%;
+        }
+
+        .intext{
+            width: 90%;
+            height: 30px;
+            margin: 10px;
+        }
+
+        .area{
+            margin: 10px;
+            width: 95%;
+            height: 50px;
+        }
+
+        .btn{
+            padding: 5px;
+        }
+
+        /* phần events bên phải */
+        .event{
+            position: relative;
+            width: 20%;
+            height: 80%;
+            display: inline-block;
+            background-color: black;
+            color: #fff;
+            margin: 0px;
+        }
+
+        .dvevent{
+            width: 80%;
+            text-align: justify;
+            padding: 15px 0px;
+            margin: 0px 10%;
+        }
+
+        .imgevent{
+            width: 100%;
+        }
+
+        .readlink{
+            color: #756167;
+            text-decoration: underline;
+        }
+
+        /* phần footer chân trang  */
+        .footer{
+            background-color: #ed9496;
+            line-height: 40px;
+            text-align: center;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="hearder">
+            <h1 class="h1tittle">EXAMPLE CAFE MENU</h1>
+            <ul class="level1">
+                <li style="text-align: right; width: 200px; border: 0;">
+                    <a href=""><img class="home" src="../img/bai1/icons8-home-50.png" alt=""></a>
+                </li>
+                <li><a href="">Strarter</a></li>
+                <li><a href="">Main Courses</a></li>
+                <li><a href="">Desserts</a></li>
+                <li class="ftext">
+                    <a href="">
+                        <form action="">
+                            <input type="text">
+                            <input type="button" value="Go">
+                        </form>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="main">
+            <div class="slider">
+                <ul>
+                    <li><p>Cafe Latte</p></li>
+                    <li><p>Cappuccino</p></li>
+                    <li><p>Chocolate Black</p></li>
+                    <li><p>Ice-cream Club</p></li>
+                    <li><p>Mocha Pink</p></li>
+                </ul>
+                <img class="company" src="../img/bai1/company.png" alt="">
+            </div>
+    
+            <div class="content">
+                <h1 class="h1content">Starter</h2>
+                    <ul class="level2">
+                        <li>Chesnut and Mushroom Goujons <span class="check">(v)</span></li>
+                        <li>Goat Cheese<span class="check">(v)</span></li>
+                        <li style="text-transform: uppercase;"><span style="color: #be9779;">Honey soy chicken kebabs </span><span class="check">(v)</span></li>
+                        <li>Seafood Salad<span class="check">(v)</span></li>
+                    </ul>
+                    <a class="back" href="">Back to Top</a>
+                    <h1 class="h1content">Desserts</h2>
+                        <ul class="level2">
+                            <li>Lemon Sorbet <span class="check">(v)</span></li>
+                            <li>Chocolate Mud Pie<span class="check">(v)</span></li>
+                            <li>Pecan Pie<span class="check">(v)</span></li>
+                            <li>Selection of fine Cheeses from Around the World<span class="check">(v)</span></li>
+                        </ul>
+                        <a class="back" href="">Back to Top</a>
+                <h1 class="h1content">Information</h1>
+                <table>
+                    <tr>
+                        <td> <input class="intext" type="text" placeholder="First Name"></td>
+                        <td> <input class="intext" type="text" placeholder="Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td> <input class="intext" type="text" placeholder="Email"></td>
+                        <td> <input class="intext" type="text" placeholder="Telephone"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select class="intext"  name="Nation" id="Nation">
+                                <option value="USA">USA</option>
+                                <option value="VN">VN</option>
+                                <option value="Japan">Japan</option>
+                            </select>
+                        </td>
+                        <td style="padding: 10px;"> 
+                            <input name="rad" type="radio">
+                            <label for="">Vietnamese</label>
+                            <input name="rad" type="radio">
+                            <label for="">Foreigner</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <textarea class="area" placeholder="Comment"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 10px;">
+                            <input class="btn" type="button" value="Submit">
+                            <input class="btn" type="button" value="Canel">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    
+            <div class="event">
+                <h2>Events</h2>
+                <div class="dvevent">
+                    <h3>Regular Meetings</h3>
+                    <img class="imgevent" src="../img/bai1/meeting.png" alt="">
+                    <p>Host your regular team meetings or activities in the comfort of your own private room. <a class="readlink" href="">Read more...</a></p>
+                </div>
+    
+                <div class="dvevent">
+                    <h3>Product Launches</h3>
+                    <img class="imgevent" src="../img/bai1/launch.png" alt="">
+                    <p>Launch your product with some in a space that truly fits its image. <a class="readlink" href="">Read more...</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>ABC Company <sup>@</sup> <span></span> - 12345678 - abccoffee@gmail.com</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

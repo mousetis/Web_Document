@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book</title>
+    <meta name="23714711" content="Phan Chí Toàn">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid text-white p-0" style=" height: 620px;">
+        <div class="navbar navbar-expand-sm position-relative bg-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item lh-1 ms-5" style="margin-right: 100px; padding: 15px 5px; padding-left: 50px; font-family:'Satisfy'; font-size:xx-large;">Feare</li>
+                <li class="position-absolute top-50 start-50 translate-middle">
+                    <ul class="navbar-nav text-uppercase">
+                        <li class="nav-item p-2 lh-1 me-4">
+                            <a class="text-decoration-none text-white" href="home.html">HOME</a>
+                        </li>
+                        <li class="nav-item p-2 lh-1 me-4">
+                            <a class="text-decoration-none text-white" href="menu.html">MENU</a>
+                        </li>
+                        <li class="nav-item p-2 lh-1 me-4">
+                            <a class="text-decoration-none text-white" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item p-2 lh-1 me-4">
+                            <a class="text-decoration-none text-white" href="book.html">BOOK TABLE</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item p-2 lh-1 position-absolute end-0 me-md-5">
+                    <input class="rounded-pill text-white bg-warning ms-2" style="padding: 5px 10px; background-color: #189bcd; border: none;" data-bs-toggle="modal" data-bs-target="#exampleModal"  type="button" value="Order Online">
+                </li>
+            </ul>
+        </div>
+        <div class="container h-75 pt-5" >
+            <div class="row container">
+                <div class="col-6" style="padding-left: 10%;">
+                    <div class="row ms-5">
+                        <h2 class="text-dark" style="font-family: 'Satisfy'; font-size: xx-large;">Book A Table </h2>
+                    </div>
+                    <div class="row m-3 ms-5 form-control-lg">
+                        <input class="rounded" type="text"  name="" id="" placeholder="Your Name">
+                    </div>
+                    <div class="row m-3 ms-5 form-control-lg">
+                        <input class="rounded" type="text"  name="" id="" placeholder="Phone Number">
+                    </div>
+                    <div class="row m-3 ms-5 form-control-lg">
+                        <input class="rounded" type="email"  name="" id="" placeholder="Your Email">
+                    </div>
+                    <div class="row m-3 ms-5 form-control-lg">
+                        <input class="rounded" type="text"  name="" id="" placeholder="How many people?">
+                    </div>
+                    <div class="row m-3 ms-5 form-control-lg">
+                        <input class="rounded" type="date"  name="" id="" placeholder="Your Name">
+                    </div>
+                    <div class="row m-3 ms-5 mt-4 w-25">
+                        <input class="rounded-pill bg-warning text-white border-0 form-control-lg"  type="button" value="Book now">
+                    </div>
+                </div>
+
+                <div class="col-6 mt-5">
+                    <iframe class="w-75 h-75 mt-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4348143209877!2d106.69907547488246!3d10.777971589370914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4876c29a9b%3A0xd2c79768678d2142!2zVmluY29tIENlbnRlciDEkOG7k25nIEto4bufaQ!5e0!3m2!1svi!2sus!4v1741429399902!5m2!1svi!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-warning" id="exampleModalLabel">Order</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                        <div class="">
+                            <label for="telephone" class="form-label text-dark">Telephone</label>
+                            <input class="form-control border border-warning rounded-pill" type="tel" id="telephone" name="telephone" required>
+                        </div>
+                        <div class="">
+                            <label class="form-label text-dark" for="email">Email</label>
+                            <input class="form-control border border-warning rounded-pill" type="email" id="email" name="email" required>
+                        </div>
+                        <div class="pt-2">
+                            <label class="form-label text-dark">
+                                <input type="checkbox" name="check-code"> Check me out
+                            </label>
+                        </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <input class="bg-warning text-dark border-0 rounded" type="button" value="Order">
+                    <input class="bg-warning text-dark border-0 rounded" type="button" data-bs-dismiss="modal" value="Done">
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</body>
+</html>

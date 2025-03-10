@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .top img {
+    text-align: right;
+    padding-right: 600px;
+  }
+.hrr {
+    color: rgb(255, 191, 0);
+    height: 2px;
+    background-color: rgb(255, 191, 0);
+    line-height: 0;
+    width: 60%;
+    text-align: left;
+    margin-left: 0;
+  }
+ 
+  .list_ul {
+    background-image: url(../../img/bai4/back.jpg);
+    width: 190px;
+    height: 700px;
+    padding-bottom: 20px;
+  }
+  .list_ul li {
+    list-style: none;
+    text-align: left;
+    margin-left: 0px;
+    font-size: 15px;
+  }
+  a {
+    color: purple;
+    text-decoration: none;
+  }
+  .cham {
+    color: rgb(193, 144, 0);
+  }
+  .center{
+    position: relative;
+    left: 220px;
+    bottom: 700px;
+  }
+  p{
+    color: brown;
+  }
+  .h1{
+    color: rgb(255, 191, 0);
+    margin-bottom: 15px;
+  }
+  .window{
+    border: 4px solid rgba(243, 187, 18, 0.786);
+    position: relative;
+    left: 620px;
+    bottom: 1070px;
+    width: 20%;
+    list-style: none;
+    border-style: outset;
+    
+  }
+  .list li{
+    padding-left: 3px;
+    margin-left: 30px;
+    margin-bottom: 1px;
+    color: brown;
+  }
